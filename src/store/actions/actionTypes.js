@@ -1,0 +1,5 @@
+export const CHANGE_INPUT = 'CHANGE_INPUT'
+export const RESET = 'RESET'
+export const VALIDATE = 'VALIDATE'
+export const GET_BUTTON_VALUE = 'GET_BUTTON_VALUE'
+export const EQUAL = 'EQUAL'

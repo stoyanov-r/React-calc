@@ -1,0 +1,13 @@
+.Input {
+  box-sizing: border-box;
+  height: 50px;
+  width: 310px;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.invalid {
+  border-color: red;
+  outline: none;
+}

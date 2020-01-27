@@ -1,0 +1,18 @@
+.Calc {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0 auto;
+  h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.Input {
+  display: flex;
+  width: 310px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
