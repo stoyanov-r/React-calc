@@ -11,7 +11,7 @@ const Input = ({onEnterClick, isValid, inputValue, onInputChange }) => {
     inputRef.current.selectionStart = inputRef.current.value.length;
   })
 
-  return (
+  return ( 
     <input 
       onKeyDown={onEnterClick}
       className={
@@ -43,7 +43,5 @@ function mapDispatchToProps (dispatch) {
     
   }
 }
-
-
 
 export default connect(mapStateToProps, mapDispatchToProps)( Input);

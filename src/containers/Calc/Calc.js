@@ -15,7 +15,7 @@ export class Calc extends PureComponent {
 
   componentDidMount(){
     document.addEventListener("keydown", this.onEscClick, false)
-}
+} 
 
   componentWillUnmount(){
       document.removeEventListener("keydown", this.onEscClick, false)

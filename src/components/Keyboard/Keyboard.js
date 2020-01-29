@@ -8,7 +8,7 @@ import { onButtonClick, reset, equal } from '../../store/actions/Calc';
 const Keyboard = (props) => {
   const numbers = new Array(10)
     .fill('')
-    .map((_, i) => i)
+    .map((_, i) => i) 
   return (
     <div className={classes.Keyboard}>
       <div className={classes.numbers}>
@@ -16,7 +16,7 @@ const Keyboard = (props) => {
         <Button onClick={props.onButtonClick} type='number' text='00' />
         {numbers.map((item, i) => <Button 
           type='number'
-          text={item}
+          text={item} 
           key={`button-${i}`}
           onClick={props.onButtonClick}
           />)}
